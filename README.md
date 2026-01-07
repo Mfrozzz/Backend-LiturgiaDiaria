@@ -169,5 +169,5 @@ Projeto de uso pastoral e educativo.
 
 ## 🧠 Idealizado por:
 
-**Marcos Vinicius Schimaichel Boava**
-**PN. Rafael Kauã Bento**
+* **Marcos Vinicius Schimaichel Boava**
+* **PN. Rafael Kauã Bento**
