@@ -33,6 +33,8 @@ Backend-LiturgiaDiaria/
 │   ├── server.ts            # Servidor Express
 │   ├── config/
 │   │   └── index.ts
+│   ├── middlewares/
+│   │   └── RateLimiter.ts
 │   ├── routes/
 │   │   └── liturgy.routes.ts
 │   └── services/
