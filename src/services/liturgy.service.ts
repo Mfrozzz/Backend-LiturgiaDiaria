@@ -6,7 +6,10 @@ const API_BASE_URL = config.api.uri;
 
 export async function getTodaysLiturgy(): Promise<LiturgyResponse> {
     const today = new Date();
-    const response = await axios.get<LiturgyResponse>(`${API_BASE_URL}/${today.getDate().toString()}-${(today.getMonth() + 1).toString()}`);
+    const day = today.getDate().toString();
+    const month = (today.getMonth() + 1).toString();
+    const response = await axios.get<LiturgyResponse>(`${API_BASE_URL}/${day}-${month}`);
+
     return response.data;
 }
 

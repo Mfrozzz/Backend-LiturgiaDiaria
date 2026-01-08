@@ -33,10 +33,14 @@ Backend-LiturgiaDiaria/
 │   ├── server.ts            # Servidor Express
 │   ├── config/
 │   │   └── index.ts
+│   ├── formatters/
+│   │   └── liturgy.formatter.ts
 │   ├── middlewares/
 │   │   └── RateLimiter.ts
 │   ├── routes/
 │   │   └── liturgy.routes.ts
+│   ├── types/
+│   │   └── liturgy.ts
 │   └── services/
 │       └── liturgy.service.ts
 │
@@ -138,9 +142,9 @@ http://localhost:3000
 
 Este backend é apenas o começo. Os próximos passos planejados incluem:
 
-- [ ] Tipagem completa da resposta da API (interfaces TypeScript)
-- [ ] Pegar informações separadamente (orações, cor liturgica, leituras, etc.)
-- [ ] Formatação da liturgia em texto e Markdown
+- [X] Tipagem completa da resposta da API (interfaces TypeScript)
+- [X] Pegar informações separadamente (orações, leituras, etc.)
+- [X] Formatação da liturgia em texto e Markdown
 - [ ] Cache diário para evitar múltiplas requisições
 - [ ] Criação do **bot do Discord da AJS – BPA**
 - [ ] Agendamento automático de mensagens diárias
